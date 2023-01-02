@@ -47,7 +47,19 @@ Dont use interpolation parameter!
   
 ### video transformation
 ```
-  bash sanet_video.sh $video_path, $style_path, $output_path, $fps
+  python sanet_video.py \
+    --video_path \ 
+    --style \
+    --output
+```
+# for example
+  python video2imgs 'video_0.mp4' 'content/tdtm_video_images/'
+  python sanet.py \
+  --content_dir ./content/video_images \
+  --style ./style/asheville.jpg \
+  --output './output/video/temp_video_1_asheville' \
+  --alphas '0.8' 
+  python imgs2video imgs_src video_dst
 ```
   
   
