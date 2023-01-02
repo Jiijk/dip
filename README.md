@@ -52,23 +52,13 @@ Dont use interpolation parameter!
     --style \
     --output
 ```
-# for example
-  python video2imgs 'video_0.mp4' 'content/tdtm_video_images/'
-  python sanet.py \
-  --content_dir ./content/video_images \
-  --style ./style/asheville.jpg \
-  --output './output/video/temp_video_1_asheville' \
-  --alphas '0.8' 
-  python imgs2video imgs_src video_dst
-```
-  
   
 ## csbent
 need imageio package
 ```
 pip install imageio-ffmpeg
 ```
-download pre-trained vgg [here](https://drive.google.com/file/d/1DP_P7t4En07cZjho6hnXNuyv5E5yVno-/view?usp=share_link)
+download pre-trained vgg [here](https://drive.google.com/file/d/1DP_P7t4En07cZjho6hnXNuyv5E5yVno-/view?usp=share_link) \
 download pre-trained csbent[here](https://drive.google.com/file/d/1-Ac9I5wYJMNJZG7r60e0GnVrAo6sNcrV/view?usp=share_link)
 
 ### Image transformation
