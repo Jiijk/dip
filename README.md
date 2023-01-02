@@ -75,7 +75,7 @@ Do not care about KC,KS parameters, these are choosen by experimets.
 
 ### Video transformation
 ```
-  python cabnet_video.py \
+  python cbnet_video.py \
   --content_dir <video_path>  \
   --style_dir  <style path or dir path > \
   --KC 4 --KS -10 \
